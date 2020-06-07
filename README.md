@@ -1,0 +1,2 @@
+# blog-file
+jsdelivr
