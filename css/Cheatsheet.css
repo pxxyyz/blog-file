@@ -1,0 +1,105 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  color: var(--color-black);
+  font-size: 16px; }
+
+* {
+  box-sizing: border-box; }
+
+:root {
+  --h00:4rem;
+  --h0:3rem;
+  --h1:2rem;
+  --h2:1.5rem;
+  --h3:1.25rem;
+  --h4:1rem;
+  --h5:.875rem;
+  --h6:.75rem; }
+
+:root {
+  --line-height-1:1;
+  --line-height-2:1.125;
+  --line-height-3:1.25;
+  --line-height-4:1.5;
+  --caps-letter-spacing:.2em;
+  --bold-font-weight:bold; }
+
+:root {
+  --width-1:24rem;
+  --width-2:32rem;
+  --width-3:48rem;
+  --width-4:64rem; }
+
+:root {
+  --space-1:.5rem;
+  --space-2:1rem;
+  --space-3:2rem;
+  --space-4:4rem; }
+
+:root {
+  --z1:1;
+  --z2:2;
+  --z3:3;
+  --z4:4; }
+
+:root {
+  --border-width:1px;
+  --border-radius:3px; }
+
+:root {
+  --color-brand: #e91e63;
+  --color-link: #1971c2;
+  --color-brand-rgb: 233, 30, 99;
+  --color-black: #172b4d;
+  --color-white: #ffffff;
+  --color-gray-0: #fbfbfb;
+  --color-gray-1: #f4f5f7;
+  --color-gray-2: #eaecef;
+  --color-gray-3: #cbcdd4;
+  --sidebar-width: 18rem;
+  --border-radius-md: 6px; }
+
+
+.iconset--info {
+  margin-bottom: var(--space-2); }
+  .iconset--info td,
+  .iconset--info th {
+    padding: var(--space-1) 0;
+    min-width: 85px;
+    text-align: left; }
+
+.icons {
+  display: grid;
+  grid-auto-rows: auto;
+  grid-auto-columns: max-content;
+  grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+  grid-column-gap: var(--space-2);
+  grid-row-gap: var(--space-2);
+  text-align: center; }
+  .icons .item {
+    outline: none; }
+    .icons .item .icon {
+      min-height: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--color-white);
+      border-radius: var(--border-radius-md);
+      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+      border: 2px solid transparent;
+      font-size: 1.6em; }
+    .icons .item:hover .icon {
+      background: var(--color-white); }
+    .icons .item:focus .icon {
+      border-color: rgba(var(--color-brand-rgb), 0.5);
+      background: rgba(var(--color-brand-rgb), 0.05); }
+    .icons .item:focus .name {
+      color: var(--color-brand); }
+  .icons .name {
+    margin-top: 0.5rem;
+    font-size: 0.7em;
+    overflow: hidden;
+    user-select: all; }
