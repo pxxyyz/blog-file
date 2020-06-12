@@ -70,6 +70,7 @@ body {
   .icons .item {
     outline: none; }
     .icons .item .icon {
+      min-width: 96px; !important
       min-height: 36px;/* min-height: 64px; */ 
       display: flex;
       align-items: center;
