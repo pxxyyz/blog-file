@@ -3,12 +3,8 @@ name: wake
 
 on: 
   push:
-    branches:
-      - backup
-    paths:
-      - '.github/workflows/wake.yml'
   schedule:
-    - cron: "*/18 0-15 * * *"
+    - cron: "*/18 0-15,22-23 * * *"
 
 jobs:
   build:
@@ -16,9 +12,7 @@ jobs:
 
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
-      with:
-        ref: backup
+      uses: actions/checkout@master
 
     - name: Set up Python
       uses: actions/setup-python@v1
