@@ -6,7 +6,7 @@ const fps = 1000 / 120;
 const PI2 = 2 * Math.PI;
 let cValue = 0, mode;
 let leon, controll, time, canvas, ctx;
-function init() {
+function myCanvasinit() {
     var canvas=document.getElementById('myCanvas');
     ctx = canvas.getContext("2d");
     canvas.width = sw * pixelRatio;
@@ -52,7 +52,6 @@ function canvasupdate() {
     const total = leon.data.length;
     let i, p, pos, no = 0; 
     let d, j, j_total;
-
     for (i = 0; i < total; i++) {
         d = leon.data[i].paths;
         j_total = Math.round(d.length * leon.drawing[i].value);
@@ -85,6 +84,6 @@ function animate(t) {
         }
     }
 }
-window.onload = () => {
-    init();
-};
+$(document).ready(function(){ 
+   myCanvasinit();
+}); 
