@@ -1,4 +1,3 @@
-<script type="text/javascript">
 const sw = 300;
 const sh = 50;
 const pixelRatio = 3;
@@ -89,4 +88,3 @@ function animate(t) {
 window.onload = () => {
     init();
 };
-</script>
