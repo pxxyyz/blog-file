@@ -325,6 +325,7 @@ body {
 }
 .tooltip {
   display: unset !important;
+  opacity: unset !important;
 }
 input[type="text"],
 input[type="email"],
