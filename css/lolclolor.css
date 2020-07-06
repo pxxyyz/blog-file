@@ -314,6 +314,11 @@ body {
   font-size: 0.8em;
 }
 #main {
+  width: calc(100% - 400px);
+  margin-left: 400px;
+  padding: calc(3rem + 100px) 80px 0 0;
+}
+#main-lolclolor {
   margin-top: 100px;
   margin-left: 40px;
   margin-right: 40px;
