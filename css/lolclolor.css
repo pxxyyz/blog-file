@@ -319,9 +319,12 @@ body {
   padding: calc(3rem + 100px) 80px 0 0;
 }
 #main-lolclolor {
-  margin-top: 100px;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-top: 100px; !important
+  margin-left: 40px; !important
+  margin-right: 40px; !important
+}
+.tooltip {
+  display: unset; !important
 }
 input[type="text"],
 input[type="email"],
