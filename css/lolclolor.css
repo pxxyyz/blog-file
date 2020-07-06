@@ -319,12 +319,12 @@ body {
   padding: calc(3rem + 100px) 80px 0 0;
 }
 #main-lolclolor {
-  margin-top: 100px; !important
-  margin-left: 40px; !important
-  margin-right: 40px; !important
+  margin-top: 100px!important;	
+  margin-left: 40px!important;	
+  margin-right: 40px!important;	
 }
 .tooltip {
-  display: unset; !important
+  display: unset!important;	
 }
 input[type="text"],
 input[type="email"],
@@ -649,38 +649,38 @@ textarea {
   font-size: 0.75rem;
 }
 .palette a.tooltip {
-  position: relative; !important
-  text-decoration: none; !important
+  position: relativecheatsheet
+  text-decoration: none!important;	
 }
 .palette a.tooltip span {
-  position: absolute; !important
-  top: -60px; !important
-  left: 35px; !important
-  color: #aaafc6; !important
-  font-weight: 700; !important
-  box-shadow: 0 1px 0 #fff; !important
-  text-align: center; !important
-  opacity: 0; !important
-  -moz-transition: opacity 0.4s ease-in-out; !important
-  -webkit-transition: opacity 0.4s ease-in-out; !important
-  -o-transition: opacity 0.4s ease-in-out; !important
-  transition: opacity 0.4s ease-in-out; !important
+  position: absolute!important;	
+  top: -60px!important;	
+  left: 35px!important;	
+  color: #aaafc6!important;	
+  font-weight: 700!important;	
+  box-shadow: 0 1px 0 #fff!important;	
+  text-align: center!important;	
+  opacity: 0!important;	
+  -moz-transition: opacity 0.4s ease-in-out!important;	
+  -webkit-transition: opacity 0.4s ease-in-out!important;	
+  -o-transition: opacity 0.4s ease-in-out!important;	
+  transition: opacity 0.4s ease-in-out!important;	
 }
 .palette a.tooltip .last {
-  top: -56px; !important
-  left: 49px; !important
+  top: -56px!important;	
+  left: 49px!important;	
 }
 .palette a.tooltip:hover span {
-  opacity: 1; !important
+  opacity: 1!important;	
 }
 @-moz-document url-prefix() {
   .palette a.tooltip span {
-    position: absolute; !important
-    top: 0; !important
+    position: absolute!important;	
+    top: 0!important;	
   }
   .palette a.tooltip .last {
-    top: 0; !important
-    left: 35px; !important
+    top: 0!important;	
+    left: 35px!important;	
   }
 } /*!* animate.css -http://daneden.me/animate
 * Version - 3.5.1
