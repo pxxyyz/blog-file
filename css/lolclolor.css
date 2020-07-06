@@ -649,38 +649,38 @@ textarea {
   font-size: 0.75rem;
 }
 .palette a.tooltip {
-  position: relative;
-  text-decoration: none;
+  position: relative; !important
+  text-decoration: none; !important
 }
 .palette a.tooltip span {
-  position: absolute;
-  top: -60px;
-  left: 35px;
-  color: #aaafc6;
-  font-weight: 700;
-  box-shadow: 0 1px 0 #fff;
-  text-align: center;
-  opacity: 0;
-  -moz-transition: opacity 0.4s ease-in-out;
-  -webkit-transition: opacity 0.4s ease-in-out;
-  -o-transition: opacity 0.4s ease-in-out;
-  transition: opacity 0.4s ease-in-out;
+  position: absolute; !important
+  top: -60px; !important
+  left: 35px; !important
+  color: #aaafc6; !important
+  font-weight: 700; !important
+  box-shadow: 0 1px 0 #fff; !important
+  text-align: center; !important
+  opacity: 0; !important
+  -moz-transition: opacity 0.4s ease-in-out; !important
+  -webkit-transition: opacity 0.4s ease-in-out; !important
+  -o-transition: opacity 0.4s ease-in-out; !important
+  transition: opacity 0.4s ease-in-out; !important
 }
 .palette a.tooltip .last {
-  top: -56px;
-  left: 49px;
+  top: -56px; !important
+  left: 49px; !important
 }
 .palette a.tooltip:hover span {
-  opacity: 1;
+  opacity: 1; !important
 }
 @-moz-document url-prefix() {
   .palette a.tooltip span {
-    position: absolute;
-    top: 0;
+    position: absolute; !important
+    top: 0; !important
   }
   .palette a.tooltip .last {
-    top: 0;
-    left: 35px;
+    top: 0; !important
+    left: 35px; !important
   }
 } /*!* animate.css -http://daneden.me/animate
 * Version - 3.5.1
