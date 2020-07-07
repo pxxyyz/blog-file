@@ -1,13 +1,1 @@
-<svg width="1024" height="1024" xmlns="http://www.w3.org/2000/svg" class="icon">
- <defs>
-  <style type="text/css"/>
- </defs>
- <g>
-  <title>background</title>
-  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
- </g>
- <g>
-  <title>Layer 1</title>
-  <path stroke="#FABA6F" id="svg_1" fill="#ffffff" d="m128,256l64,0l0,-64l-64,0l0,64zm192,0l576,0l0,-64l-576,0l0,64zm-192,288l64,0l0,-64l-64,0l0,64zm192,0l576,0l0,-64l-576,0l0,64zm-192,288l64,0l0,-64l-64,0l0,64zm192,0l576,0l0,-64l-576,0l0,64z"/>
- </g>
-</svg>
+<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg t="1590068395220" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2203" width="32" height="32" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><style type="text/css"></style></defs><path d="M128 256h64V192H128zM320 256h576V192H320zM128 544h64v-64H128zM320 544h576v-64H320zM128 832h64v-64H128zM320 832h576v-64H320z" fill="white" p-id="2204"></path></svg>
