@@ -248,8 +248,8 @@
     }
   });
   $.fn.carousel.defaults = {
-    width: 800,
-    height: 300,
+    width: 500,
+    height: 400,
     speed: 3000,
     needPrevAndNextBtnGroup: true,
     needPagination: true
@@ -257,9 +257,10 @@
 })();
 
 $(".swiper-container").carousel({
-  width: 800,
-  height: 300,
-  speed: 3e3,
+  width: document.getElementById("post-body").offsetWidth,
+  height: document.getElementById("post-body").offsetWidth*0.8,
+  // width: "100%",
+  speed: 6e3,
   needPrevAndNextBtnGroup: true,
   needPagination: true
 });

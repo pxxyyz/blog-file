@@ -1,32 +1,18 @@
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #2d2d2d;
-  height: 90vh;
-}
 .swiper-item > img {
   width: inherit;
   height: inherit;
   object-fit: cover;
 }
 
-* {
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  transform: translateZ(0);
-}
-html,
-body {
-  margin: 0;
-  padding: 0;
-}
+
 .swiper-container {
   position: relative;
-  width: 800px;
+  width: 100%;
   min-width: 300px;
-  height: 300px;
+  height: 100%;
   min-height: 120px;
   overflow: hidden;
+  margin:0 auto;
 }
 .swiper-wrapper {
   position: absolute;
@@ -61,10 +47,11 @@ body {
   border-radius: 50%;
   transition: background-color 0.2s;
   cursor: pointer;
+  background-color:rgba(0, 0, 255, 0.15);
 }
 .swiper-btn-group_prev:hover,
 .swiper-btn-group_next:hover {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(0, 0, 255, 0.85);
 }
 .swiper-btn-group_prev::before,
 .swiper-btn-group_next::before {
@@ -96,17 +83,17 @@ body {
   height: 20px;
 }
 .swiper-pagination-item {
-  width: 10px;
-  height: 10px;
+  width: 5px;
+  height: 5px;
   border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.45);
+  background-color: rgba(255, 0, 0, 0.45);
   transition: all 0.3s;
 }
 .swiper-pagination-item:not(:last-child) {
-  margin-right: 10px;
+  margin-right: 3px;
 }
 .swiper-pagination-item_active {
-  width: 30px;
+  width: 10px;
   border-radius: 5px;
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(255, 0, 0, 0.85);
 }
